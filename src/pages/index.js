@@ -1,7 +1,9 @@
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import Menu from "@/components/Menubar";
 
 export default function Home() {
-  return ()
+  return (
+    <div>
+      <Menu />
+    </div>
+  )
 }
