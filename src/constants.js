@@ -1,3 +1,13 @@
+const COLORS = {
+    BLACK: 'black',
+    RED: 'red',
+    GREEN: 'green',
+    BLUE: 'blue',
+    ORANGE: 'orange',
+    YELLOW: 'yellow',
+    WHITE: 'white'
+}
+
 const MENU_ITEMS = {
     PENCIL: 'PENCIL',
     ERASER: 'ERASER',
@@ -6,4 +16,4 @@ const MENU_ITEMS = {
     DOWNLOAD: 'DOWNLOAD'
 }
 
-export {MENU_ITEMS}
+export {COLORS, MENU_ITEMS}
